@@ -1,4 +1,4 @@
-module comparator_4bit_simple_df(Eq,Gt,Lt,A,B)
+module comparator_4bit_simple_df(Eq,Gt,Lt,A,B);
 
 input [3:0]A,B;
 output Eq,Gt,Lt;//Equal to, Greater than, Less than

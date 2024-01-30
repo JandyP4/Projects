@@ -5,7 +5,7 @@ output reg Q;
 
 always@(posedge Clk or posedge Rst) //The Reset and Clock have no relation, thus Async
         if(Rst)
-                Q <= 1`b0;
+                Q <= 1'b0;
         else
                 Q <= D;
 
